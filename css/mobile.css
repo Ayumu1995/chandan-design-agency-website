@@ -1,11 +1,11 @@
 .section-title-wrapper {
-  margin: 170px 0 50px 0;
+  margin: 110px 0 50px 0;
   text-align: center;
 }
 
 .section-title-wrapper h2,
 .section-title-wrapper p {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
   color: #1a2630;
   display: inline-block;
@@ -23,7 +23,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  height: 3px;
+  height: 2px;
   background-color: #007bff;
   border-radius: 2px;
   transform: translateY(5px);
@@ -50,39 +50,40 @@
 #story-wrapper {
   display: flex;
   justify-content: center;
-  gap: 40px;
   margin-bottom: 20px;
 }
 
 #story-content {
-  width: 482px;
-  height: 686px;
+  width: 335px;
+  height: 681px;
   background-color: #f4f6fe;
   border-radius: 15px;
   padding: 40px 20px;
 }
 
 #story-img {
+  width: 238px;
   display: block;
   margin: 0 auto;
 }
 
 #story-text {
   color: #4f5863;
-  font-size: 18px;
-  font-weight: 200;
+  font-size: 15.7px;
+  /* font-weight: 200; */
   line-height: 2;
   text-align: center;
 }
 
 .btn-img {
-  width: 50px;
+  width: 0px;
   height: 50px;
   align-self: center;
+  visibility: collapse;
 }
 
 #contact-section {
-  height: 798px;
+  height: 858px;
   background-color: #e9f4ff;
   padding-top: 50px;
   margin-top: 80px;
@@ -93,9 +94,9 @@
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  padding-left: 60px;
+  padding-left: 20px;
   column-gap: 100px;
-  row-gap: 40px;
+  row-gap: 30px;
 }
 
 #info-flex div {
@@ -106,10 +107,10 @@
 #form-grid {
   display: grid;
   grid-template-rows: repeat(4, 1fr) 1.5fr;
-  width: 570px;
-  height: 564px;
+  width: 335px;
+  height: 544px;
   margin: 60px auto 0 auto;
-  padding: 30px 50px;
+  padding: 20px 20px;
   background-color: white;
   border-radius: 15px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
@@ -119,7 +120,7 @@
 #form-grid label {
   display: block;
   margin: 12px 0;
-  font-size: 16px;
+  font-size: 14px;
   color: #1a2630;
 }
 
@@ -136,7 +137,7 @@
 }
 
 button {
-  width: 152px;
+  width: 161px;
   height: 54px;
   margin-top: 35px;
   background-color: #4361ee;
@@ -149,15 +150,14 @@ button {
 #blog-wrapper {
   max-width: 100%;
   display: flex;
-  justify-content: center;
-  flex-wrap: nowrap;
-  overflow: hidden;
-  gap: 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
 
 .blog-card {
-  width: 314px;
-  height: 354px;
+  width: 335px;
+  height: 350px;
   background-color: #e9f4ff;
   border-radius: 15px;
 }
@@ -170,11 +170,11 @@ button {
 .blog-card p,
 .blog-card a {
   width: 100%;
-  padding: 20px 37px;
+  padding: 20px;
 }
 
 .blog-card p {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 300;
   color: #4f5863;
   line-height: 2;
@@ -189,14 +189,14 @@ button {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 footer {
   width: 100%;
-  height: 605px;
-  padding-top: 60px;
-  padding-left: 10%;
+  height: 848px;
+  padding-top: 30px;
+  padding-left: 5%;
   background-color: #03071b;
   color: #e5e5e5;
 }
@@ -214,30 +214,33 @@ footer {
 }
 
 #footer-info-wrapper a {
+  font-size: 14px;
   color: #e5e5e5;
 }
 
 #icon-field {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin-right: 40px;
-  gap: 40px;
+  gap: 30px;
   order: 1;
 }
 
 #icon-field > img {
-  width: 70px;
-  height: 70px;
+  width: 62px;
+  height: 62px;
 }
 
 #social-icon {
-  clear: both;
   display: flex;
-  gap: 20px;
+  width: 24px;
+  height: 24px;
+  align-self: center;
+  gap: 10px;
 }
 
 #subscribe-field {
-  width: 60%;
+  width: 95%;
   order: 2;
 }
 
@@ -305,8 +308,7 @@ footer {
 }
 
 footer > p {
-  text-align: center;
-  font-size: 14px;
+  font-size: 13px;
   margin-top: 40px;
   color: #e5e5e5;
 }
