@@ -12,6 +12,20 @@
   </head>
   <body>
     <main>
+      <header>
+        <div>
+          <img src="./assets/image/Logo large.png" alt="logo" class="logo" />
+        </div>
+        <div class="hamburger">
+          <svg viewBox="0 0 100 80" width="30" height="20" class="hamburger-icon">
+            <rect width="100" height="15" rx="8"></rect>
+            <rect y="30" width="100" height="15" rx="8"></rect>
+            <rect y="60" width="100" height="15" rx="8"></rect>
+          </svg>
+          <nav class="dropdown" id="dropdown"></nav>
+        </div>
+      </header>
+
       <section class="hero-section">
         <div class="container-hero">
           <h1>
@@ -142,7 +156,7 @@
             <label for="phone">Phone no*</label>
             <input type="tel" id="phone" placeholder="Phone no" />
           </div>
-          <button>Submit →</button>
+          <button class="button">Submit →</button>
         </div>
       </section>
 
@@ -173,7 +187,7 @@
         </div>
 
         <div id="button-wrapper">
-          <button>View All →</button>
+          <button class="button">View All →</button>
         </div>
       </section>
       <footer>
@@ -210,7 +224,7 @@
               </div>
               <p>By subscribing you agree to our Terms & Conditions</p>
 
-              <button>Subscribe →</button>
+              <button class="button">Subscribe →</button>
             </div>
           </div>
         </div>
