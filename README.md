@@ -71,7 +71,7 @@ This website is designed to be viewed at the following resolutions:
 
 ### Page Credits
 
-1. Design by [Chandan Singh](https://www.figma.com/community/file/1108999686959099021)
+1. Design by [Chandan Singh](https://www.figma.com/community/file/1279079738685247219)
 
 ## Author
 
